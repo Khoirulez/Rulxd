@@ -864,7 +864,9 @@ class Furthermore:
        Console().print(Markdown(f"## Error 404 Not Found"),style='yellow') ; sleep(3.1) ; sys.exit()
        
 if __name__=='__main__':
-  os.system("git pull") ; REQ().Menuuu()
+  os.system('null')
+  try:
+      os.system("git pull") ; REQ().Menuuu()
   except requests.exceptions.ConnectionError as e:
       os.system("clear") ; Console().print(Markdown(f"## {str(e).title()}"),style='red') ; sleep(3.1) ; sys.exit() 
 
