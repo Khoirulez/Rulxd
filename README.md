@@ -1,2 +1,2 @@
-# Rul_Xd
+# Rul
 Gunakan dengan baik
