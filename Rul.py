@@ -1,7 +1,7 @@
 # FREE AND OPEN SOURCE       
 # FREE SCRIPTS CANNOT BE SOLD AND BUYED
 # https://github.com/Khoirulez
-# WA : 6283861183874
+# WA : 6281283547452
 
 try:
     import re, os, sys, bs4, time, json, base64, rich
@@ -862,9 +862,7 @@ class Furthermore:
    
    def regularAPP(self, user, password):
        Console().print(Markdown(f"## Error 404 Not Found"),style='yellow') ; sleep(3.1) ; sys.exit()
-
-if __name__=='__main__':
-  os.system('xdg-open https://chat.whatsapp.com/')
+       
   try:
       os.system("git pull") ; REQ().Menuuu()
   except requests.exceptions.ConnectionError as e:
